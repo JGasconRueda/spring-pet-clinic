@@ -1,6 +1,5 @@
 package com.example.springframework.services.springdatajpa;
 
-import com.example.springframework.model.Owner;
 import com.example.springframework.model.Speciality;
 import com.example.springframework.repositories.SpecialtyRepository;
 import com.example.springframework.services.SpecialtyService;
