@@ -17,7 +17,6 @@ import java.util.Collection;
 @Controller
 @RequestMapping("/owners/{ownerId}")
 public class PetController {
-
     private static final String VIEWS_PETS_CREATE_OR_UPDATE_FORM = "pets/createOrUpdatePetForm";
 
     private final PetService petService;
