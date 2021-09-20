@@ -3,6 +3,7 @@ package com.example.springframework.model;
 import lombok.*;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
 import java.time.LocalDate;
 
 @Setter
@@ -17,6 +18,7 @@ public class Visit extends BaseEntity{
     @Column(name = "date")
     private LocalDate date;
 
+    @NotEmpty
     @Column(name = "description")
     private String description;
 
