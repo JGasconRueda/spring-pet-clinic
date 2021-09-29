@@ -57,6 +57,7 @@ public class VisitControllerTest {
                 .andExpect(model().attributeExists("visit"));
     }
 
+    
     @Test
     void processNewVisitFormHasErrors() throws Exception{
         mockMvc.perform(post("/owners/*/pets/{petId}/visits/new", 1L)
